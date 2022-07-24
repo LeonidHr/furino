@@ -8,7 +8,10 @@ npm i
 ```
 __After__
 ```
-gulp
+npm run build
+```
+```
+npm run dev
 ```
 
 ## \#Demo
