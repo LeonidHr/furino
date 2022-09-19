@@ -8,14 +8,16 @@ npm i
 ```
 __After__
 ```
-npm run build
-```
-```
 npm run dev
 ```
+__And for building__
+```
+npm run build
+```
+
 
 ## \#Demo
-[furinoDemo](https://github.com/LeonidHr/furinoDist)
+[furinoDemo](https://leonidhr.github.io/furino/)
 
 
 ## \#Libraries
