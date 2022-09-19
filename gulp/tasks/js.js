@@ -12,6 +12,24 @@ export const js = () => {
       mode: app.Build ? 'production' : 'development',
       output: {
         filename: 'app.min.js',
+      },
+      module: {
+        rules: [
+          {
+            test: /\.m?js$/,
+            exclude: /(node_modules|bower_components)/,
+            use: {
+              loader: 'babel-loader',
+              options: {
+                presets: [['@babel/preset-env', {
+                    debug: true,
+                    corejs: 3,
+                    useBuiltIns: "usage"
+                }]]
+              }
+            }
+          }
+        ]
       }
     }))
     .pipe(app.gulp.dest(app.path.build.js))
