@@ -1,4 +1,4 @@
-# \#Furino Sourse
+# \#Furino
 Website for an online store selling accessories
 
 ## \#How to use
@@ -16,10 +16,15 @@ npm run build
 ```
 
 ## \#Demo
-[furinoDemo](https://leonidhr.github.io/furino/)
+[https://leonidhr.github.io/furino/](https://leonidhr.github.io/furino/)
 
+<img src="./src/img/preview.png" width="726">
 
 ## \#Libraries
+
+## \#Sending emails
+
+__In order for sending letters to mail to work, you need to add the [PHPMailer pragin](https://github.com/PHPMailer/PHPMailer) to the root of the project__
 
 [Swiper](https://swiperjs.com)
 
