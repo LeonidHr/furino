@@ -18,7 +18,15 @@ npm run build
 ## \#Demo
 [https://leonidhr.github.io/furino/](https://leonidhr.github.io/furino/)
 
-<img src="./src/img/preview.png" width="726">
+<img src="./src/img/preview.gif" width="726">
+
+## \#Features
+* Custom swipers
+* Adding an item to the cart
+* Loading goods from JSON file
+* Gallery with paralax effect
+* Sending an email using PHPMailer
+
 
 ## \#Libraries
 
